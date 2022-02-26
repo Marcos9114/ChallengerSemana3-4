@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+  
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+  background-color: #555;
+}
+
+
+
+.div-titulo{
+  text-align:center; 
+  margin: 0px 0px;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  font-size: 40px;
+}
+
+.instrucciones{
+  padding: 10px;
+  font-size: 20px;
+  margin: auto;
+  color: rgb(67, 87, 155);
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-top: 50px;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  font-size: 15px;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  position: fixed;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
+  color: aliceblue;
+}
+
+.oculto{
+  display:none;
+}
+
+.form{
+  text-align:center;
+}
+.letrasAhorcado{
+  text-align:center;
+}
+.styleTextSecret{
+  text-align:center;
+  margin: 10px;
+  font-size: 30px;
+  letter-spacing: 0.5em;
+}
+
+#ahorcado{
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgb(111, 217, 221);
+  border-radius: 30px;
+  border: 3px solid rgb(5, 17, 44);
+}
+
+#div-canvas{
+
+    text-align:center;
+}
